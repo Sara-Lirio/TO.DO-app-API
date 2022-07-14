@@ -1,6 +1,6 @@
 const tarefaController = (app) => {
-    app.get('tarefa', (req,res) => {
-        res.send('Rota tarefa do usuário')
+    app.get('/tarefa', (req,res) => {
+        res.send("Rota tarefa do usuário")
     })
 }
 

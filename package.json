@@ -4,7 +4,9 @@
   "description": "Projeto de API TO DO LIST",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ./src/app.js",
+    "dev" : "nodemon ./s"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,5 @@
   "devDependencies": {
     "nodemon": "^2.0.19"
   },
-  "type": "module",
+  "type": "module"
 }
