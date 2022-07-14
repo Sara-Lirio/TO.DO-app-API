@@ -1,0 +1,23 @@
+{
+  "name": "to-do-app-api",
+  "version": "1.0.0",
+  "description": "Projeto de API TO DO LIST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sara-Lirio/TO.DO-app-API.git"
+  },
+  "keywords": [
+    "todolist",
+    "api"
+  ],
+  "author": "Sara Lirio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sara-Lirio/TO.DO-app-API/issues"
+  },
+  "homepage": "https://github.com/Sara-Lirio/TO.DO-app-API#readme"
+}
