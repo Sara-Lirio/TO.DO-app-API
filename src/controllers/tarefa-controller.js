@@ -1,11 +1,10 @@
 const tarefaController = (app) => {
     app.get('/tarefa', (req, res) => {
-        res.send("Rota tarefa do usuário")
+        res.json("Rota tarefa do usuário")
     })
 
     app.post('/tarefa', (req, res) => {
-            res.send("Rota POST de tarefa ativada: tarefa adicionada ao banco de dados")
-       
+            res.json("Rota POST de tarefa ativada: tarefa adicionada ao banco de dados")
     })
 }
 
