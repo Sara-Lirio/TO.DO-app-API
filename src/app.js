@@ -8,7 +8,6 @@ const port = 3002
 
 app.use(express.json())
 
-
 usuarioController(app)
 tarefaController(app)
 
