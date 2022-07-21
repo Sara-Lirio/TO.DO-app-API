@@ -9,9 +9,20 @@ class Usuario {
     }
 
     insereUsuario = (usuario) => {
-        console.log(bd.usuario);
         bd.usuario.push(usuario)
-        console.log(bd.usuario)
+    }
+
+    pegaUsuarios = ()=>{
+        return bd.usuario
+    } 
+
+    pegaUmUsuario = (email)=>{
+        return bd.usuario.filter(usuario=>usuario.email===email)
+    }
+
+    deletaUsuario = (email) => {
+        const newDB = bd.usuario.filter(usuario => usuario.email!==email)
+        bd.usuario = newDB
     }
 }
 

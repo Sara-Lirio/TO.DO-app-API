@@ -5,6 +5,18 @@ class Tarefas{
         this.status=status,
         this.dataCriacao=dataCriacao
     }
+
+    insereTarefa = (tarefa)=>{
+        bd.tarefa.push(tarefa)
+    }
+
+    pegaTarefas = ()=>{
+        return bd.tarefa
+    }
+
+    pegaUmaTarefa = (titulo)=>{
+        return bd.tarefa.filter(tarefa=>tarefa.titulo===titulo)
+    }
 }
 
 export default Tarefas

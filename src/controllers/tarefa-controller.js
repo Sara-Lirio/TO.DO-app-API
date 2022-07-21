@@ -1,4 +1,5 @@
 import Tarefa from '../models/tarefa-model.js'
+import ValidacaoTarefa from '../service/validacaoTarefa.js'
 
 const tarefaController = (app) => {
     app.get('/tarefa', (req, res) => {

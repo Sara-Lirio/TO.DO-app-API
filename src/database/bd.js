@@ -1,5 +1,5 @@
-const usuario = []
+let usuario = []
 
-const tarefa = []
+let tarefa = []
 
 export default {usuario,tarefa}
