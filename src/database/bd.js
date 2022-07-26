@@ -2,4 +2,4 @@ let usuario = []
 
 let tarefa = []
 
-export default {usuario,tarefa}
+export default {usuario, tarefa}

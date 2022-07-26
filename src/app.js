@@ -1,6 +1,7 @@
+// Importando o package express
 import express from 'express'
-import usuarioController from './controllers/usuario-controller.js'
-import tarefaController from './controllers/tarefa-controller.js'
+import usuarioController from './controller/usuario-controller.js'
+import tarefaController from './controller/tarefa-controller.js'
 
 
 const app = express()
@@ -11,7 +12,6 @@ app.use(express.json())
 usuarioController(app)
 tarefaController(app)
 
-app.listen(port, ()=>{  
-    console.log(`Servidor online no endereço http://localhost:${port}`)
-});
-
+app.listen(port, ()=>{
+    console.log(`http://localhost:${port}/`)
+})
