@@ -53,4 +53,10 @@ Exemplo:<br>
 `get'/tarefa'`<br>
 **POST**
 `post'/usuario'`
-`post'/tarefa'`
+`post'/tarefa'`<br>
+**DELETE**
+`delete'/usuario'`
+`delete'/tarefa'`<br>
+**PUT**
+`put'/usuario'`
+`put'/tarefa'`
